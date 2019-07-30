@@ -169,11 +169,23 @@
 </div>
 
     <div id="d2">
-        
-            <div class="d1">   <img src="assets/img/1d.PNG" class="img2" /> </div>
-            <div class="d1">   <img src="assets/img/rq.PNG" class="img2" /> </div>
-            <div class="d1">   <img src="assets/img/d2.PNG" class="img2" /> </div>
-            <div class="d1">   <img src="assets/img/d4.PNG" class="img2" /> </div>
+                 
+            <div class="d1">
+                <a href="SignIn.aspx">
+                <img src="assets/img/1d.PNG" class="img2" />    </a>
+            </div>    
+            <div class="d1">
+                <a href="SignIn.aspx">
+                <img src="assets/img/rq.PNG" class="img2" />    </a>
+            </div>
+            <div class="d1">
+                <a href="SignIn.aspx">
+                <img src="assets/img/d2.PNG" class="img2" />    </a>
+            </div>
+            <div class="d1">  
+                <a href="SignIn.aspx">
+                <img src="assets/img/d4.PNG" class="img2" />    </a>
+            </div>
         
     </div>
       

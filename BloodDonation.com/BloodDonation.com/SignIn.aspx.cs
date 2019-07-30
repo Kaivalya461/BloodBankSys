@@ -12,7 +12,7 @@ namespace BloodDonation.com
 {
     public partial class SignIn : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\WORKING ADDRESS HERE! ");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\ProjectBlood\BloodBankSys\BloodDonation.com\BloodDonation.com\App_Data\PrimaryDatabase.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -22,10 +22,12 @@ namespace BloodDonation.com
         {
             try
             {
+                Session["Email"] = TextBox1.Text;
                 string uid = TextBox1.Text;
                 string pass = TextBox2.Text;
                 con.Open();
-                string qry = "select * from Registration where Email = ' " + uid + " ' and Password = ' " + pass + " ' ";
+                
+                string qry = "select * from Registration where Email = '" + uid + "' and Password = '" + pass + "'" ;
                 SqlCommand cmd = new SqlCommand(qry, con);
                 SqlDataReader sdr = cmd.ExecuteReader();
 

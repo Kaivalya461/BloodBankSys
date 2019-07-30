@@ -55,11 +55,9 @@ namespace BloodDonation.com
 
 
             cmd.ExecuteNonQuery();
-
-            Response.Redirect("Temp.aspx");
-
             con.Close();
 
+            Response.Redirect("~/SignIn.aspx");
         }
     }
 }

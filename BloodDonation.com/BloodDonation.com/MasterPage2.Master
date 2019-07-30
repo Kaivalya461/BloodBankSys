@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="right-div">
-                    <asp:Button ID="Button1" runat="server" Text="Logout" class="btn btn-danger pull-right"/>
+                    <asp:Button ID="Button1" runat="server" Text="Logout" class="btn btn-danger pull-right" OnClick="Button1_Click"/>
                     <a href="#"><img src="https://localhost:44352/assets/img/homologo.png" id="ho1"/></a>
                 </div>
             </div>
