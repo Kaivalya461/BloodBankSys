@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="BloodDonation.com.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+                <asp:ContentPlaceHolder ID="title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+        <link href="https://localhost:44352/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://localhost:44352/assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="https://localhost:44352/assets/css/style.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+        <style type="text/css">
+        #logo{
+            width:50px;
+            height:110px;
+            margin-top:-40px;
+        }
+
+        #ho1{
+            width:50px;
+            height:50px;
+            margin-top:-10px;
+            margin-right:10px;
+        }
+
+        #cr{
+            float:right;
+            width:100%;
+            height:10%;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="navbar navbar-inverse set-radius-zero">
+            <div class="container">
+                <div class="navbar-header">
+                    <div style="float:left">
+                        <a class="navbar-brand" href="#">
+                            <h2 style="margin:-5px;">DonateBlood.com</h2>
+                            <img src="https://localhost:44352/assets/img/logo.jpg" id="logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="right-div">
+                    <asp:Button ID="Button1" runat="server" Text="Login" class="btn btn-danger pull-right"/>
+                    <a href="#"><img src="https://localhost:44352/assets/img/homologo.png" id="ho1"/></a>
+                </div>
+            </div>
+        </div>
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+    </div>
+                
+        <br /> <hr />
+        <div id="cr">
+            <h3>Quote Here</h3>
+        </div>
+
+    </form>
+</body>
+</html>
