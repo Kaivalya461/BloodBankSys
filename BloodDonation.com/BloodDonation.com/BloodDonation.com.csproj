@@ -102,6 +102,7 @@
     <Content Include="assets\js\dataTables\dataTables.bootstrap.js" />
     <Content Include="assets\js\dataTables\jquery.dataTables.js" />
     <Content Include="assets\js\jquery-1.10.2.js" />
+    <Content Include="BloodBankStock.aspx" />
     <Content Include="Index.aspx" />
     <Content Include="PlzLogin.aspx" />
     <Content Include="ReqBloodDonation.aspx" />
@@ -121,6 +122,13 @@
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BloodBankStock.aspx.cs">
+      <DependentUpon>BloodBankStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BloodBankStock.aspx.designer.cs">
+      <DependentUpon>BloodBankStock.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

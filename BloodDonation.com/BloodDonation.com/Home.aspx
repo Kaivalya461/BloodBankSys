@@ -183,7 +183,7 @@
                 </a>
             </div>
             <div class="d1"> 
-                <a href="ReqBloodDonation.aspx">                
+                <a href="BloodBankStock.aspx">                
                 <img src="assets/img/d2.PNG" class="img2" />
                 </a>
             </div>
