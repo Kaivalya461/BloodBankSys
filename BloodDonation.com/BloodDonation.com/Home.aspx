@@ -173,7 +173,7 @@
     <div id="d2">
         
             <div class="d1"> 
-                <a href="ReqBloodDonation.aspx">
+                <a href="SearchBloodDonor.aspx">
                 <img src="assets/img/1d.PNG" class="img2" /> 
                 </a>
             </div>

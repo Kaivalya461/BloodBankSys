@@ -105,9 +105,11 @@
     <Content Include="Index.aspx" />
     <Content Include="PlzLogin.aspx" />
     <Content Include="ReqBloodDonation.aspx" />
+    <Content Include="SearchBloodDonor.aspx" />
     <Content Include="SignIn.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Temp.aspx" />
+    <Content Include="TestSearchBloodDonor.aspx" />
     <Content Include="TestSuccessPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
@@ -163,6 +165,13 @@
     <Compile Include="ReqBloodDonation.aspx.designer.cs">
       <DependentUpon>ReqBloodDonation.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SearchBloodDonor.aspx.cs">
+      <DependentUpon>SearchBloodDonor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchBloodDonor.aspx.designer.cs">
+      <DependentUpon>SearchBloodDonor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignIn.aspx.cs">
       <DependentUpon>SignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -183,6 +192,13 @@
     </Compile>
     <Compile Include="Temp.aspx.designer.cs">
       <DependentUpon>Temp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestSearchBloodDonor.aspx.cs">
+      <DependentUpon>TestSearchBloodDonor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestSearchBloodDonor.aspx.designer.cs">
+      <DependentUpon>TestSearchBloodDonor.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestSuccessPage.aspx.cs">
       <DependentUpon>TestSuccessPage.aspx</DependentUpon>
