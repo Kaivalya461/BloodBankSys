@@ -35,6 +35,15 @@
             width:100%;
             height:10%;
         }
+
+        .UImg
+        {
+            border-radius : 50%;
+            width : 80px;
+            height : 70px;
+            margin-left : 67%;
+            margin-top : -75px;
+        }
     </style>
 
 </head>
@@ -53,8 +62,13 @@
                 </div>
                 <div class="right-div">
                     <asp:Button ID="Button1" runat="server" Text="Logout" class="btn btn-danger pull-right" OnClick="Button1_Click"/>
-                    <a href="#"><img src="https://localhost:44352/assets/img/homologo.png" id="ho1"/></a>
+                    <a href="Home.aspx"><img src="https://localhost:44352/assets/img/homologo.png" id="ho1"/></a>
                 </div>
+            </div>
+            <div>
+                <a href="UserInfo.aspx">
+                    <asp:Image ID="Image1" runat="server" class="UImg" />
+                </a>
             </div>
         </div>
             <asp:ContentPlaceHolder ID="body" runat="server">
